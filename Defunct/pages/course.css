@@ -1,0 +1,69 @@
+/*filename: [layout for Home page]
+author: [Ha Ngo]
+created: 26/3/2024
+last modified: 29/3/2024
+description: [layout for the html file] */
+
+.math {
+    display: block;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    width: 40%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #358188;
+    margin: 20px;
+    line-height: 4em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 3em;
+    border-radius: 15px;
+}
+
+.sci {
+    display: block;
+    color: #ffffff;
+    float: right;
+    padding: 20px;
+    width: 40%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #358188;
+    margin: 20px;
+    line-height: 4em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 3em;
+    border-radius: 15px;
+}
+
+.chem {
+    display: block;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    width: 40%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #358188;
+    margin: 20px;
+    line-height: 4em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 3em;
+    border-radius: 15px;
+}
+
+.physic {
+    display: block;
+    color: #ffffff;
+    float: right;
+    padding: 20px;
+    width: 40%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #358188;
+    margin: 20px;
+    line-height: 4em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 3em;
+    border-radius: 15px;
+}

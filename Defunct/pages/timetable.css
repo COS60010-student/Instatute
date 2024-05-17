@@ -1,0 +1,16 @@
+/*Design the table*/
+table {
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 3em;
+    width: 55%;
+    border: 1px solid gray;
+    color: #358188;
+
+}
+
+th, td {border: 1px solid gray;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #358188;
+    padding: 0.5em;
+}

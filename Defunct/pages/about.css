@@ -1,0 +1,37 @@
+/*filename: [layout for Home page]
+author: [Ha Ngo]
+created: 26/3/2024
+last modified: 29/3/2024
+description: [layout for the html file] */
+
+body {
+    background-color:#a6d8d777;
+}
+
+.abt {
+    color: #358188;
+    float: right;
+    padding: 20px;
+    width: 35%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 0.99231189em;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: -0.02em;
+    font-size: 1.35em;
+}
+
+.abt1 {
+    margin-bottom: 580px;
+    padding: 20px;
+}
+
+#abtimg {
+    float: left;
+    margin-left: 2em;
+    width: 40%;
+}
+
+#wht {
+    color: #ffffff;
+}

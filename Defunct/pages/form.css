@@ -1,0 +1,29 @@
+/*filename: [header and footer]
+author: [Ha Ngo]
+created: 26/3/2024
+last modified: 26/3/2024
+description: [layout for the html file] */
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    color: #358188;
+    text-align: center;
+    margin-top: 2em;
+}
+
+form {
+    margin-left: 15em;
+    margin-right: 15em;
+    color: #358188;
+}
+
+#submit, #reset {
+    background-color: #358188;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+    

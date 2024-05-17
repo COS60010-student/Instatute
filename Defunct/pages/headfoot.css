@@ -1,0 +1,57 @@
+/*filename: [header and footer]
+author: [Ha Ngo]
+created: 26/3/2024
+last modified: 26/3/2024
+description: [layout for the html file] */
+
+
+
+header {margin-left: 2em;
+        margin-right: 3em;}
+
+#logo {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: xx-large;
+       font-style: italic;
+       font-weight: bold;
+       color: #358188;
+       padding: 0.2em;
+}
+/*Design the menubar*/
+p.menu {display: inline-block;}
+
+nav {float: right;}
+nav a {text-decoration: none;
+       background-color: rgba(255, 255, 255, 0.904);
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: 600;
+       color: #358188;
+       text-align: center;
+       padding: 1em;
+       border-radius: 15px;
+}
+
+nav p a:hover {background-color: rgb(230, 230, 230);}
+
+/*Design the footer*/
+footer { 
+       border-top: 4px double #358188;
+       clear: both;
+       margin-top: 200px
+}
+
+footer p {
+    display: inline-block; width: 40%;
+    color: #358188;
+    }
+
+footer a {text-decoration: none;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #358188;}
+
+footer p:first-child {float: left; margin-left: 2em;}
+footer p:last-child {float: right; text-align: right; margin-right: 3em;}
+
+
+
+

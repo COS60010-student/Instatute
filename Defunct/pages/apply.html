@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apply now</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Online learning" />
+    <meta name="keywords" content="Online learning" />
+    <meta name="author" content="Ha Ngo"  />
+    <link href="headfoot.css" rel="stylesheet"/>
+    <link href="form.css" rel="stylesheet"/>
+  
+</head>
+<body>
+    <header> <!--Header with logo and menu bar -->
+      <nav>
+        <p class="menu"><a href="homepage.html">Home</a></p> 
+        <p class="menu"><a href="about.html">About</a> </p> 
+        <p class="menu"><a href="course.html">Courses</a></p>
+        <p class="menu"><a href="timetable.html">Timetable</a></p>
+        <p class="menu"><a href="signin.html">Sign in</a></p> 
+      </nav>
+      <p id="logo">Instatute</p>
+    </header>
+    <hr />
+    <div>
+      <h1>Registration Form</h1>
+      <form id="form" method="post" action="confirm.html" novalidate="novalidate">
+        <fieldset>
+          <legend>User Information</legend>
+            <p><label for="Username">Username:</label>
+            <input type="text" name="Username" id="Username" size="25" required="required"/>
+            </p>
+            <p><label for="Password">Password:</label>
+            <input type="text" name="Password" id="Password" size="25" required="required"/>
+            </p>
+            <p><label for="Date">Re-enter your password</label>
+              <input type="text" name="Password" id="Password" size="25" required="required"/>
+            </p>
+        </fieldset>
+        <fieldset>
+          <legend>Personal Information</legend>
+            <p><label for="FirstName">First Name</label>
+            <input type="text" name="FirstName" id="FirstName" pattern="^[a-zA-Z]{1,20}$" size="25" required="required"/>
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LastName" id="LastName" pattern="^[a-zA-Z]{1,20}$" size="25" required="required"/>
+          </p>
+          <p><label for="Date">Date of birth</label>
+            <input type="text" id="Date" name="Date" placeholder="dd/mm/yyyy" size="24" pattern="^(3[01]|[12][0-9]|0?[1-9])/(1[0-2]|0?[1-9])/([0-9]{4})$">
+          </p>
+          <p>Gender: 
+            <label for="male">Male</label> 
+            <input type="radio" id="male" name="Gender" value="male"/>
+            <label for="female">Female</label> 
+            <input type="radio" id="female" name="Gender" value="female"/>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Contact information</legend>
+            <p><label for="Address" >Address</label>
+              <input type="text" name="Address" id="Address" maxlength="40" size="70" required="required"/>
+            </p>
+            <p><label for="Suburb" >Suburb/town</label>
+              <input type="text" name="Suburb" id="Suburb" maxlength="40" size="14" required="required"/>
+              <label for="Postcode" >Postcode</label>
+              <input type="text" name="Postcode" id="Postcode" pattern="^[0-9]{4}$" size="14" required="required"/>
+              <div id="postcodeError"></div>
+              <label for="State">State</label>
+              <select name="State" id="State" required="required">
+                <option value="">Please Select</option>
+                <option value="ACT">ACT</option>
+                <option value="NT">NT</option>
+                <option value="NSW">NSW</option>
+                <option value="QLD">QLD</option>
+                <option value="SA">SA</option>
+                <option value="TAS">TAS</option>
+                <option value="VIC">VIC</option>
+                <option value="WA">WA</option>
+              </select> 
+              <div id="stateError"></div>
+            </p>
+            <p><label for="Email">Email</label> 
+                <input type="email" name= "Email" id="Email" required="required" size="39"/>
+                <label for="Phone">Phone:</label>
+                <input type="tel" id="Phone" name="Phone">
+            </p>
+        </fieldset>
+        
+        <input type= "submit" id="submit" value="Submit Application"/>
+        <input type= "reset" id="reset" value="Reset Form"/>
+
+      </form>
+    </div>
+
+  <footer>
+    <p>&#169; 2024 Instatute</p>
+    <p><a href="mailto:105256264@swin.edu.au">Email us</a></p>      
+  </footer>
+
+
+
+</body>
+
+</html>
+
